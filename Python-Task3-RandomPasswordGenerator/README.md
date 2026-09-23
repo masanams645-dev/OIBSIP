@@ -1,51 +1,51 @@
-# BMI Calculator
+# Random Password Generator
 
-## Project Overview
+## 📌 Project Overview
 
-The BMI Calculator is a beginner-friendly Python program that calculates a user's Body Mass Index (BMI) based on their weight and height.
+The Random Password Generator is a Python-based application that generates strong and random passwords based on the user's selected requirements.
 
-## Features
+The user can specify the password length and choose the types of characters to include, such as uppercase letters, lowercase letters, numbers, and symbols.
 
-* Takes weight in kilograms (kg)
-* Takes height in meters (m)
-* Calculates BMI using the BMI formula
-* Displays BMI rounded to 2 decimal places
-* Classifies BMI into:
+## 🎯 Objective
 
-  * Underweight
-  * Normal
-  * Overweight
-  * Obese
-* Handles invalid and negative inputs
+The main objective of this project is to create a simple and useful Python tool for generating secure random passwords with user-defined criteria.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Python
+* `random` module
+* `string` module
 
-## BMI Formula
+## ✨ Features
 
-BMI = Weight / (Height × Height)
+* Set the desired password length
+* Minimum password length of 8 characters
+* Choose uppercase letters
+* Choose lowercase letters
+* Choose numbers
+* Choose symbols
+* Generate a random password based on the selected criteria
+* Input validation for invalid password length
+* Validation to ensure character types are selected
+* Generate another password without restarting the program
 
-## How to Run
+## ⚙️ How It Works
 
-1. Install Python.
-2. Open the project folder in VS Code or PowerShell.
-3. Run the following command:
+1. The user enters the required password length.
+2. The program checks whether the length is valid.
+3. The user selects the required character types.
+4. The program creates a character set based on the selected options.
+5. A random password is generated.
+6. The generated password is displayed to the user.
+7. The user can generate another password if required.
+
+## ▶️ How to Run
+
+### Step 1: Install Python
+
+Make sure Python is installed on your system.
+
+Check the installation using:
 
 ```bash
-python main.py
 ```
-
-4. Enter your weight and height when prompted.
-
-## Example Output
-
-```text
-===== BMI CALCULATOR =====
-Enter your weight in kg: 60
-Enter your height in meters: 1.70
-
-Your BMI is: 20.76
-Category: Normal
-```
-
