@@ -1,5 +1,4 @@
 # Random Password Generator
-# Random Password Generator
 
 ## Project Description
 ## 📌 Project Overview
